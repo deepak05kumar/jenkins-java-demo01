@@ -9,9 +9,11 @@ public class App {
 	public static void main(String[] args) {
 		App app = new App();
 
+		System.out.println("Jenkins automatic build test!");
+
 		System.out.println("Hello from Java CI/CD!");
 		System.out.println("10 + 20 = " + app.add(10, 20));
 		
-		System.out.println("Jenkins automatic build test!");
+		System.out.println("Jenkins Poll SCM test - second commit!");
 	}
 }
