@@ -11,5 +11,7 @@ public class App {
 
 		System.out.println("Hello from Java CI/CD!");
 		System.out.println("10 + 20 = " + app.add(10, 20));
+		
+		System.out.println("Jenkins automatic build test!");
 	}
 }
